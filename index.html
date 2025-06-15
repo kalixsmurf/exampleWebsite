@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Öğreniyorum</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <h1>HTML Öğreniyorum 🎓</h1>
+
+    <div class="section">
+        <h2>1. Paragraflar ve Satır Atlamaları</h2>
+        <p>Bu bir paragraf etiketi. Her paragraf ayrı bir blok gibi görünür.</p>
+        <p>Burada da <br> satır atlamak için <strong>&lt;br&gt;</strong> kullandık.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Kalın ve Eğik Yazılar</h2>
+        <p><strong>Bu yazı kalın.</strong> <em>Bu yazı ise eğik.</em></p>
+    </div>
+
+    <div class="section">
+        <h2>3. Bağlantılar</h2>
+        <p><a href="https://www.google.com" target="_blank">Google’a Git</a></p>
+    </div>
+
+    <div class="section">
+        <h2>4. Resim</h2>
+        <img src="https://via.placeholder.com/150" alt="Örnek Görsel">
+    </div>
+
+    <div class="section">
+        <h2>5. Sıralı ve Sırasız Listeler</h2>
+        <ul>
+            <li>Elma</li>
+            <li>Armut</li>
+            <li>Muz</li>
+        </ul>
+        <ol>
+            <li>Birinci adım</li>
+            <li>İkinci adım</li>
+            <li>Üçüncü adım</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>6. Buton ve Giriş Alanı</h2>
+        <label for="name">Adını yaz:</label>
+        <input type="text" id="name" placeholder="Adın">
+        <button>Tıkla Beni!</button>
+    </div>
+
+    <div class="section">
+        <h2>7. Çizgi ve Span</h2>
+        <p>Yazının ortasında <span style="color: green;">renkli bir span</span> etiketi kullandık.</p>
+        <hr>
+        <p>Yukarıda yatay çizgi için <code>&lt;hr&gt;</code> etiketi kullandık.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. Hava Durumu (iframe)</h2>
+        <iframe src="https://www.meteoblue.com/tr/hava/widget/daily/ip_romanya_675514?geoloc=fixed&days=3&tempunit=CELSIUS" 
+            frameborder="0" scrolling="NO" style="width: 370px; height: 420px"></iframe>
+    </div>
+
 </body>
 </html>

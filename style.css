@@ -1,0 +1,37 @@
+@keyframes color-change {
+            0% { color: blue; }
+            50% { color: red; }
+            100% { color: blue; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f0;
+    padding: 20px;
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
